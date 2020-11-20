@@ -94,3 +94,7 @@ node server
 [Telegram bot]: https://core.telegram.org/bots
 [Botgram]: https://botgram.js.org
 [blog post]: https://alba.sh/blog/telegram-shell-bot/
+
+
+**Click this button to deploy to heroku**
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/NBM69/jitushell)
