@@ -15,10 +15,6 @@ ENV LC_ALL en_US.UTF-8
 
 # rclone and gclone
 RUN curl https://rclone.org/install.sh | bash
-RUN aria2c https://git.io/gclone.sh && bash gclone.sh
-
-#ngrok
-RUN aria2c https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip
 
 #install rmega
 RUN gem install rmega
