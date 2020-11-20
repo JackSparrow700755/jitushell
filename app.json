@@ -1,0 +1,32 @@
+{
+  "name": "Shell-bot",
+  "repository": "https://github.com/NBM69/jitushell",
+  "description": "A telegram shell-bot with preinstalled rclone, folderclone, ngrok, qbittorrent-nox, streamlink, youtube-dl etc. Modified by @The_Magneto",
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip.git"
+    },
+    {
+      "url": "https://github.com/jkutner/heroku-buildpack-ngrok"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/magneto261290/heroku-buildpack-rclone-mod"
+    },
+    {
+      "url": "https://github.com/magneto261290/megatools-heroku-buildpack"
+    }
+  ]
+}
