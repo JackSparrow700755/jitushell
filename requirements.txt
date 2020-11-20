@@ -6,5 +6,5 @@ python-dotenv>=0.10
 tenacity>=6.0.0 
 python-magic
 streamlink
-git+https://github.com/FaArIsH/youtube-dl
+git+https://github.com/ytdl-org/youtube-dl
 folderclone
