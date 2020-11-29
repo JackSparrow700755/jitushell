@@ -97,4 +97,4 @@ node server
 
 
 **Click this button to deploy to heroku**
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy.svg)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
